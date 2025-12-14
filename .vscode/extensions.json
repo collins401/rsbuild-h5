@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "EditorConfig.EditorConfig",
+    "bradlc.vscode-tailwindcss",
+    "streetsidesoftware.code-spell-checker",
+    "formulahendry.auto-rename-tag"
+  ]
+}

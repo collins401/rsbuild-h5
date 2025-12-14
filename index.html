@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  style="font-size: calc(16px + (23.04 - 16) * ((100vw - 375px) / (540 - 375)))"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
+    />
+    <title>RSBUILD TEMPLATE</title>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta content="telephone=no,email=no" name="format-detection" />
+    <script>
+      "use strict";
+      if (!this.globalThis) {
+        this.globalThis = this;
+      }
+    </script>
+    <style>
+      /* @media screen and (min-width: 540px) {
+        html {
+          font-size: 18.9557px !important;
+        }
+      } */
+      /* 最大适配到430px iphone pro max, 同时兼容到折叠屏 */
+      @media screen and (max-width: 320px) {
+        html {
+          font-size: 13.6535px !important;
+        }
+      }
+      @media screen and (min-width: 430px) {
+        html {
+          font-size: 18.3465px !important;
+        }
+      }
+    </style>
+  </head>
+  <body ontouchstart="">
+    <div id="root"></div>
+  </body>
+</html>
