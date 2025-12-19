@@ -30,7 +30,8 @@
     "enabled": true,
     "rules": {
       "correctness": {
-        "useExhaustiveDependencies": "off"
+        "useExhaustiveDependencies": "off",
+        "useImageSize": "off"
       },
       "complexity": {
         "useSimplifiedLogicExpression": "off"

@@ -1,16 +1,15 @@
 import { Suspense } from 'react';
-
+import ErrorBoundary from './components/error-boundary';
+import { Loading } from './components/loading';
 import Routes from './routes';
 
 const App = () => {
   return (
-    <Suspense
-      fallback={
-        <div className="flex justify-center pt-4 text-center">Loading...</div>
-      }
-    >
-      <Routes />
-    </Suspense>
+    <ErrorBoundary>
+      <Suspense fallback={<Loading />}>
+        <Routes />
+      </Suspense>
+    </ErrorBoundary>
   );
 };
 

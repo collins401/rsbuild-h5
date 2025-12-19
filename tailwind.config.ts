@@ -14,7 +14,7 @@ export default {
         '900': '900',
       },
       textColor: {
-        color: 'rgba(var(--default-text), 0.85)',
+        color: 'hsla(var(--default-text), 0.85)',
       },
       colors: {
         zinc: 'rgba(242,242,247,1)',
