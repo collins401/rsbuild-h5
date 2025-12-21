@@ -1,10 +1,10 @@
-import { Link, Redirect } from 'wouter';
+import { Link } from 'wouter';
 
 export default function TodoPage() {
-  const isLoggedIn = localStorage.getItem('token'); // Replace with your auth logic
-  if (!isLoggedIn) {
-    return <Redirect to="~/sign-in" />;
-  }
+  // const isLoggedIn = localStorage.getItem('token'); // Replace with your auth logic
+  // if (!isLoggedIn) {
+  //   return <Redirect to="~/sign-in" />;
+  // }
   return (
     <div>
       User Page

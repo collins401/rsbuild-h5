@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.0.0",
+    "@floating-ui/react": "^0.27.16",
     "abortcontroller-polyfill": "^1.7.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",

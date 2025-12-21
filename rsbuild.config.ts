@@ -68,6 +68,7 @@ export default defineConfig({
       strategy: 'split-by-experience',
       forceSplitting: {
         baseui: /node_modules[\\/]@base-ui[\\/]react/,
+        floating: /node_modules[\\/]@floating-ui/,
       },
     },
   },

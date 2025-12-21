@@ -67,3 +67,17 @@
 svg {
   display: inline-block;
 }
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground text-sm;
+  }
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
